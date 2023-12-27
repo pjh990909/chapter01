@@ -12,9 +12,9 @@ public class Ex04 {
 		int time = sc.nextInt();
 		
 		if(time<=8) {
-			System.out.println("임금은 " + time*10000 + " 입니다.");
+			System.out.println("임금은 " + time*10000 + "원 입니다.");
 		}else {
-			System.out.println("임금은 " + (time*10000+(time-8)*2000) + " 입니다.");
+			System.out.println("임금은 " + (time*10000+(time-8)*2000) + "원 입니다.");
 		}
 		
 		
